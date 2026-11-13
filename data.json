@@ -1,5 +1,5 @@
 {
- "guncelleme": "2026-11-13T11:57:53.205Z",
+ "guncelleme": "2026-11-13T12:14:26.276Z",
  "gazeteler": [
   {
    "id": "hurriyet",
@@ -224,6 +224,13 @@
    "tarih": "2026-11-13",
    "kucuk": "https://i.gazeteoku.com/3/460/772/storage/files/images/2026/11/13/tavir-gazetesi-2026-11-13-l0cj.jpg",
    "buyuk": "https://i.gazeteoku.com/storage/files/images/2026/11/13/tavir-gazetesi-2026-11-13-l0cj.jpg"
+  },
+  {
+   "id": "dogru-haber",
+   "ad": "Doğru Haber",
+   "tarih": "2026-11-13",
+   "kucuk": "https://i2.haber7.net/haber7/gazete/dogru-haber/medium_131126_0800.jpg",
+   "buyuk": "https://i2.haber7.net/haber7/gazete/dogru-haber/big_131126_0800.jpg"
   }
  ]
 }
