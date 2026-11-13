@@ -1,0 +1,229 @@
+{
+ "guncelleme": "2026-11-13T11:57:53.205Z",
+ "gazeteler": [
+  {
+   "id": "hurriyet",
+   "ad": "Hürriyet",
+   "tarih": "2026-11-13",
+   "kucuk": "https://i.gazeteoku.com/3/460/772/storage/files/images/2026/11/13/hurriyet-2026-11-13-zxyg.jpg",
+   "buyuk": "https://i.gazeteoku.com/storage/files/images/2026/11/13/hurriyet-2026-11-13-zxyg.jpg"
+  },
+  {
+   "id": "sabah",
+   "ad": "Sabah",
+   "tarih": "2026-11-13",
+   "kucuk": "https://i.gazeteoku.com/3/460/772/storage/files/images/2026/11/13/sabah-2026-11-13-dlsi.jpg",
+   "buyuk": "https://i.gazeteoku.com/storage/files/images/2026/11/13/sabah-2026-11-13-dlsi.jpg"
+  },
+  {
+   "id": "nefes",
+   "ad": "Nefes",
+   "tarih": "2026-11-13",
+   "kucuk": "https://i.gazeteoku.com/3/460/772/storage/files/images/2026/11/13/nefes-2026-11-13-hgus.jpg",
+   "buyuk": "https://i.gazeteoku.com/storage/files/images/2026/11/13/nefes-2026-11-13-hgus.jpg"
+  },
+  {
+   "id": "sozcu",
+   "ad": "Sözcü",
+   "tarih": "2026-11-13",
+   "kucuk": "https://i.gazeteoku.com/3/460/772/storage/files/images/2026/11/13/sozcu-2026-11-13-mmkp.jpg",
+   "buyuk": "https://i.gazeteoku.com/storage/files/images/2026/11/13/sozcu-2026-11-13-mmkp.jpg"
+  },
+  {
+   "id": "cumhuriyet",
+   "ad": "Cumhuriyet",
+   "tarih": "2026-11-13",
+   "kucuk": "https://i.gazeteoku.com/3/460/772/storage/files/images/2026/11/13/cumhuriyet-2026-11-13-u6jj.jpg",
+   "buyuk": "https://i.gazeteoku.com/storage/files/images/2026/11/13/cumhuriyet-2026-11-13-u6jj.jpg"
+  },
+  {
+   "id": "turkgun",
+   "ad": "Türkgün",
+   "tarih": "2026-11-13",
+   "kucuk": "https://i.gazeteoku.com/3/460/772/storage/files/images/2026/11/13/turkgun-2026-11-13-apmc.jpg",
+   "buyuk": "https://i.gazeteoku.com/storage/files/images/2026/11/13/turkgun-2026-11-13-apmc.jpg"
+  },
+  {
+   "id": "turkiye",
+   "ad": "Türkiye",
+   "tarih": "2026-11-13",
+   "kucuk": "https://i.gazeteoku.com/3/460/772/storage/files/images/2026/11/13/turkiye-gazetesi-2026-11-13-6b2i.jpg",
+   "buyuk": "https://i.gazeteoku.com/storage/files/images/2026/11/13/turkiye-gazetesi-2026-11-13-6b2i.jpg"
+  },
+  {
+   "id": "yeni-safak",
+   "ad": "Yeni Şafak",
+   "tarih": "2026-11-13",
+   "kucuk": "https://i.gazeteoku.com/3/460/772/storage/files/images/2026/11/13/yeni-safak-2026-11-13-l9ko.jpg",
+   "buyuk": "https://i.gazeteoku.com/storage/files/images/2026/11/13/yeni-safak-2026-11-13-l9ko.jpg"
+  },
+  {
+   "id": "karar",
+   "ad": "Karar",
+   "tarih": "2026-11-13",
+   "kucuk": "https://i.gazeteoku.com/3/460/772/storage/files/images/2026/11/13/karar-2026-11-13-dgpl.jpg",
+   "buyuk": "https://i.gazeteoku.com/storage/files/images/2026/11/13/karar-2026-11-13-dgpl.jpg"
+  },
+  {
+   "id": "yeni-akit",
+   "ad": "Yeni Akit",
+   "tarih": "2026-11-13",
+   "kucuk": "https://i.gazeteoku.com/3/460/772/storage/files/images/2026/11/13/yeni-akit-2026-11-13-ooqq.jpg",
+   "buyuk": "https://i.gazeteoku.com/storage/files/images/2026/11/13/yeni-akit-2026-11-13-ooqq.jpg"
+  },
+  {
+   "id": "aksam",
+   "ad": "Akşam",
+   "tarih": "2026-11-13",
+   "kucuk": "https://i.gazeteoku.com/3/460/772/storage/files/images/2026/11/13/aksam-2026-11-13-sjvp.jpg",
+   "buyuk": "https://i.gazeteoku.com/storage/files/images/2026/11/13/aksam-2026-11-13-sjvp.jpg"
+  },
+  {
+   "id": "milliyet",
+   "ad": "Milliyet",
+   "tarih": "2026-11-13",
+   "kucuk": "https://i.gazeteoku.com/3/460/772/storage/files/images/2026/11/13/milliyet-2026-11-13-b1dg.jpg",
+   "buyuk": "https://i.gazeteoku.com/storage/files/images/2026/11/13/milliyet-2026-11-13-b1dg.jpg"
+  },
+  {
+   "id": "milli-gazete",
+   "ad": "Milli Gazete",
+   "tarih": "2026-11-13",
+   "kucuk": "https://i.gazeteoku.com/3/460/772/storage/files/images/2026/11/13/milli-gazete-2026-11-13-ovnl.jpg",
+   "buyuk": "https://i.gazeteoku.com/storage/files/images/2026/11/13/milli-gazete-2026-11-13-ovnl.jpg"
+  },
+  {
+   "id": "aydinlik",
+   "ad": "Aydınlık",
+   "tarih": "2026-11-13",
+   "kucuk": "https://i.gazeteoku.com/3/460/772/storage/files/images/2026/11/13/aydinlik-gazetesi-2026-11-13-wdzy.jpg",
+   "buyuk": "https://i.gazeteoku.com/storage/files/images/2026/11/13/aydinlik-gazetesi-2026-11-13-wdzy.jpg"
+  },
+  {
+   "id": "birgun",
+   "ad": "BirGün",
+   "tarih": "2026-11-13",
+   "kucuk": "https://i.gazeteoku.com/3/460/772/storage/files/images/2026/11/13/birgun-2026-11-13-yt2u.jpg",
+   "buyuk": "https://i.gazeteoku.com/storage/files/images/2026/11/13/birgun-2026-11-13-yt2u.jpg"
+  },
+  {
+   "id": "evrensel",
+   "ad": "Evrensel",
+   "tarih": "2026-11-13",
+   "kucuk": "https://i.gazeteoku.com/3/460/772/storage/files/images/2026/11/13/evrensel-2026-11-13-n249.jpg",
+   "buyuk": "https://i.gazeteoku.com/storage/files/images/2026/11/13/evrensel-2026-11-13-n249.jpg"
+  },
+  {
+   "id": "dirilis-postasi",
+   "ad": "Diriliş Postası",
+   "tarih": "2026-11-13",
+   "kucuk": "https://i.gazeteoku.com/3/460/772/storage/files/images/2026/11/13/dirilis-postasi-2026-11-13-6xti.jpg",
+   "buyuk": "https://i.gazeteoku.com/storage/files/images/2026/11/13/dirilis-postasi-2026-11-13-6xti.jpg"
+  },
+  {
+   "id": "yeni-asya",
+   "ad": "Yeni Asya",
+   "tarih": "2026-11-13",
+   "kucuk": "https://i.gazeteoku.com/3/460/772/storage/files/images/2026/11/13/yeni-asya-2026-11-13-qixn.jpg",
+   "buyuk": "https://i.gazeteoku.com/storage/files/images/2026/11/13/yeni-asya-2026-11-13-qixn.jpg"
+  },
+  {
+   "id": "yenicag",
+   "ad": "Yeniçağ",
+   "tarih": "2026-11-13",
+   "kucuk": "https://i.gazeteoku.com/3/460/772/storage/files/images/2026/11/13/yenicag-2026-11-13-9ipq.jpg",
+   "buyuk": "https://i.gazeteoku.com/storage/files/images/2026/11/13/yenicag-2026-11-13-9ipq.jpg"
+  },
+  {
+   "id": "yenibirlik",
+   "ad": "YeniBirlik",
+   "tarih": "2026-11-13",
+   "kucuk": "https://i.gazeteoku.com/3/460/772/storage/files/images/2026/11/13/yenibirlik-2026-11-13-bwe2.jpg",
+   "buyuk": "https://i.gazeteoku.com/storage/files/images/2026/11/13/yenibirlik-2026-11-13-bwe2.jpg"
+  },
+  {
+   "id": "takvim",
+   "ad": "Takvim",
+   "tarih": "2026-11-13",
+   "kucuk": "https://i.gazeteoku.com/3/460/772/storage/files/images/2026/11/13/takvim-2026-11-13-awty.jpg",
+   "buyuk": "https://i.gazeteoku.com/storage/files/images/2026/11/13/takvim-2026-11-13-awty.jpg"
+  },
+  {
+   "id": "posta",
+   "ad": "Posta",
+   "tarih": "2026-11-13",
+   "kucuk": "https://i.gazeteoku.com/3/460/772/storage/files/images/2026/11/13/posta-2026-11-13-x4ga.jpg",
+   "buyuk": "https://i.gazeteoku.com/storage/files/images/2026/11/13/posta-2026-11-13-x4ga.jpg"
+  },
+  {
+   "id": "dunya",
+   "ad": "Dünya",
+   "tarih": "2026-11-13",
+   "kucuk": "https://i.gazeteoku.com/3/460/772/storage/files/images/2026/11/13/dunya-2026-11-13-pikn.jpg",
+   "buyuk": "https://i.gazeteoku.com/storage/files/images/2026/11/13/dunya-2026-11-13-pikn.jpg"
+  },
+  {
+   "id": "milat",
+   "ad": "Milat",
+   "tarih": "2026-11-13",
+   "kucuk": "https://i.gazeteoku.com/3/460/772/storage/files/images/2026/11/13/milat-2026-11-13-htvs.jpg",
+   "buyuk": "https://i.gazeteoku.com/storage/files/images/2026/11/13/milat-2026-11-13-htvs.jpg"
+  },
+  {
+   "id": "fanatik",
+   "ad": "Fanatik",
+   "tarih": "2026-11-13",
+   "kucuk": "https://i.gazeteoku.com/3/460/772/storage/files/images/2026/11/13/fanatik-2026-11-13-a2ao.jpg",
+   "buyuk": "https://i.gazeteoku.com/storage/files/images/2026/11/13/fanatik-2026-11-13-a2ao.jpg"
+  },
+  {
+   "id": "fotomac",
+   "ad": "Fotomaç",
+   "tarih": "2026-11-13",
+   "kucuk": "https://i.gazeteoku.com/3/460/772/storage/files/images/2026/11/13/fotomac-2026-11-13-osaz.jpg",
+   "buyuk": "https://i.gazeteoku.com/storage/files/images/2026/11/13/fotomac-2026-11-13-osaz.jpg"
+  },
+  {
+   "id": "korkusuz",
+   "ad": "Korkusuz",
+   "tarih": "2026-11-13",
+   "kucuk": "https://i.gazeteoku.com/3/460/772/storage/files/images/2026/11/13/korkusuz-2026-11-13-r6av.jpg",
+   "buyuk": "https://i.gazeteoku.com/storage/files/images/2026/11/13/korkusuz-2026-11-13-r6av.jpg"
+  },
+  {
+   "id": "daily-sabah",
+   "ad": "Daily Sabah",
+   "tarih": "2026-11-13",
+   "kucuk": "https://i.gazeteoku.com/3/460/772/storage/files/images/2026/11/13/daily-sabah-2026-11-13-w649.jpg",
+   "buyuk": "https://i.gazeteoku.com/storage/files/images/2026/11/13/daily-sabah-2026-11-13-w649.jpg"
+  },
+  {
+   "id": "hurriyet-daily-news",
+   "ad": "Hürriyet Daily News",
+   "tarih": "2026-11-13",
+   "kucuk": "https://i.gazeteoku.com/3/460/772/storage/files/images/2026/11/13/hurriyet-daily-news-2026-11-13-lrjq.jpg",
+   "buyuk": "https://i.gazeteoku.com/storage/files/images/2026/11/13/hurriyet-daily-news-2026-11-13-lrjq.jpg"
+  },
+  {
+   "id": "agos",
+   "ad": "Agos",
+   "tarih": "2026-11-13",
+   "kucuk": "https://i.gazeteoku.com/3/460/772/storage/files/images/2026/11/13/agos-2026-11-13-rofc.jpg",
+   "buyuk": "https://i.gazeteoku.com/storage/files/images/2026/11/13/agos-2026-11-13-rofc.jpg"
+  },
+  {
+   "id": "oksijen",
+   "ad": "Oksijen",
+   "tarih": "2026-11-13",
+   "kucuk": "https://i.gazeteoku.com/3/460/772/storage/files/images/2026/11/13/oksijen-2026-11-13-trbm.jpg",
+   "buyuk": "https://i.gazeteoku.com/storage/files/images/2026/11/13/oksijen-2026-11-13-trbm.jpg"
+  },
+  {
+   "id": "tavir",
+   "ad": "Tavır",
+   "tarih": "2026-11-13",
+   "kucuk": "https://i.gazeteoku.com/3/460/772/storage/files/images/2026/11/13/tavir-gazetesi-2026-11-13-l0cj.jpg",
+   "buyuk": "https://i.gazeteoku.com/storage/files/images/2026/11/13/tavir-gazetesi-2026-11-13-l0cj.jpg"
+  }
+ ]
+}

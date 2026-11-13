@@ -1,0 +1,42 @@
+name: Sabah bildirimi
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 05:50 UTC = Türkiye 08:50. GitHub zamanlayıcısı çoğu gün birkaç dakika geç başlar.
+    - cron: "50 5 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: veri
+  cancel-in-progress: false
+
+jobs:
+  bildir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Manşetleri tazele
+        continue-on-error: true
+        run: |
+          node scripts/guncelle.mjs
+          if [ -n "$(git status --porcelain data.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data.json
+            git commit -m "Manşetler güncellendi"
+            git pull --rebase
+            git push
+          fi
+      - run: npm install --omit=dev --no-audit --no-fund
+      - name: Bildirimi yolla
+        env:
+          VAPID_PUBLIC: BKEnFDqq42rgL4opTNTWIbTiTcfBqMPjcOzb9P1c-IZHj5X6U-CakBDi3sgeL9FKcj3U25Cr3vZr9qewyoaXH6E
+          VAPID_PRIVATE: ${{ secrets.VAPID_PRIVATE }}
+          PUSH_ABONELIK: ${{ secrets.PUSH_ABONELIK }}
+        run: node scripts/bildir.mjs

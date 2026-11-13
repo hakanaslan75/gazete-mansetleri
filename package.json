@@ -1,0 +1,12 @@
+{
+  "name": "gazete-mansetleri",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "guncelle": "node scripts/guncelle.mjs",
+    "bildir": "node scripts/bildir.mjs"
+  },
+  "dependencies": {
+    "web-push": "^3.6.7"
+  }
+}

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Gazete Manşetleri</title>
+<meta name="description" content="Gazetelerin bugünkü birinci sayfaları">
+<meta name="theme-color" content="#f4efe6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#16140f" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Manşetler">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="icons/icon-192.png">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+<header class="ust">
+  <div class="ust-ic">
+    <div>
+      <h1>Gazete Manşetleri</h1>
+      <p id="tarih" class="tarih">&nbsp;</p>
+    </div>
+    <div class="dugmeler">
+      <button id="yenile" class="yuvarlak" aria-label="Yenile">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.6-5.9M20 4v5h-5" /></svg>
+      </button>
+      <button id="ayarAc" class="yuvarlak" aria-label="Ayarlar">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h2M10 17h10" /><circle cx="16" cy="7" r="2" /><circle cx="8" cy="17" r="2" /></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<p id="not" class="not" hidden></p>
+
+<main id="izgara" class="izgara" aria-live="polite"></main>
+
+<p id="bos" class="bos" hidden>Gösterilecek gazete yok. Ayarlardan gazete seç.</p>
+
+<!-- Tam ekran görüntüleyici -->
+<div id="bakici" class="bakici" hidden>
+  <div class="bakici-ust">
+    <div class="bakici-baslik">
+      <strong id="bakiciAd"></strong>
+      <span id="bakiciSayac"></span>
+    </div>
+    <button id="bakiciKapat" class="yuvarlak koyu" aria-label="Kapat">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" /></svg>
+    </button>
+  </div>
+  <div id="sahne" class="sahne">
+    <img id="bakiciGorsel" alt="" draggable="false">
+  </div>
+  <button id="onceki" class="yon sol" aria-label="Önceki gazete"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" /></svg></button>
+  <button id="sonraki" class="yon sag" aria-label="Sonraki gazete"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" /></svg></button>
+</div>
+
+<!-- Ayarlar -->
+<div id="perde" class="perde" hidden></div>
+<section id="ayarlar" class="ayarlar" hidden aria-label="Ayarlar">
+  <div class="tutamak"></div>
+  <div class="ayar-ust">
+    <h2>Ayarlar</h2>
+    <button id="ayarKapat" class="metin-dugme">Bitti</button>
+  </div>
+  <div class="ayar-govde">
+    <h3>Sabah bildirimi</h3>
+    <p id="bildirimDurum" class="aciklama"></p>
+    <button id="bildirimAc" class="ana-dugme">Bildirimleri aç</button>
+    <div id="abonelikKutu" hidden>
+      <textarea id="abonelikMetin" readonly rows="4" aria-label="Abonelik metni"></textarea>
+      <button id="abonelikKopyala" class="ana-dugme ikincil">Kopyala</button>
+      <p class="aciklama">Bu metni bir kez GitHub'da <b>PUSH_ABONELIK</b> gizli değişkenine yapıştır. Sonra her sabah 9'a doğru bildirim gelir.</p>
+    </div>
+
+    <h3>Gazeteler</h3>
+    <ul id="gazeteListe" class="gazete-liste"></ul>
+    <p id="sonGuncelleme" class="aciklama"></p>
+  </div>
+</section>
+
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

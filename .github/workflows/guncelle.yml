@@ -1,0 +1,38 @@
+name: Manşetleri güncelle
+
+on:
+  workflow_dispatch:
+  schedule:
+    # UTC; Türkiye saati = UTC+3 (05:20, 06:20, 07:20, 08:30, 12:00)
+    - cron: "20 2 * * *"
+    - cron: "20 3 * * *"
+    - cron: "20 4 * * *"
+    - cron: "30 5 * * *"
+    - cron: "0 9 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: veri
+  cancel-in-progress: false
+
+jobs:
+  guncelle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/guncelle.mjs
+      - name: Değiştiyse kaydet
+        run: |
+          if [ -n "$(git status --porcelain data.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data.json
+            git commit -m "Manşetler güncellendi"
+            git pull --rebase
+            git push
+          fi
