@@ -40,16 +40,61 @@ export function ayikla(html) {
   return gazeteler;
 }
 
-async function calistir() {
-  const yanit = await fetch(KAYNAK, { headers: { "User-Agent": UA, "Accept-Language": "tr-TR,tr;q=0.9" } });
-  if (!yanit.ok) throw new Error(`Kaynak ${yanit.status} döndü`);
-  const gazeteler = ayikla(await yanit.text());
-  if (gazeteler.length < 10) throw new Error(`Yalnız ${gazeteler.length} gazete bulundu; sayfa yapısı değişmiş olabilir`);
+// Yedek kaynak: haber7. Daha az gazete var (Sözcü, Cumhuriyet, Posta, Karar, BirGün yok)
+// ama GitHub sunucularından açılıyor; gazeteoku oradan 403 veriyor.
+const YEDEK = "https://www.haber7.com/gazete-mansetleri";
+const YEDEK_ID = { "takvim-gazetesi": "takvim", "yeni-birlik": "yenibirlik" };
 
+export function ayiklaYedek(html) {
+  const gazeteler = [];
+  const kalip = /<a title="([^"]+)" href="\/gazete-mansetleri\/([a-z0-9-]+)">[\s\S]{0,400}?src="(https:\/\/i2\.haber7\.net\/haber7\/gazete\/[a-z0-9-]+\/)small_((\d{2})(\d{2})(\d{2})_\d{4})\.jpg/g;
+  let m;
+  while ((m = kalip.exec(html))) {
+    const [, ad, slug, kok, damga, gun, ay, yil] = m;
+    gazeteler.push({
+      id: YEDEK_ID[slug] ?? slug,
+      ad: coz(ad).replace(/\s+Gazetesi$/i, "").trim(),
+      tarih: `20${yil}-${ay}-${gun}`,
+      kucuk: `${kok}medium_${damga}.jpg`,
+      buyuk: `${kok}big_${damga}.jpg`,
+    });
+  }
+  return gazeteler;
+}
+
+async function sayfaAl(adres) {
+  const yanit = await fetch(adres, { headers: { "User-Agent": UA, "Accept-Language": "tr-TR,tr;q=0.9" } });
+  if (!yanit.ok) throw new Error(`${new URL(adres).hostname} ${yanit.status} döndü`);
+  return yanit.text();
+}
+
+async function calistir() {
   let eski = null;
   try {
     eski = JSON.parse(await readFile(CIKTI, "utf8"));
   } catch {}
+
+  let gazeteler;
+  try {
+    gazeteler = ayikla(await sayfaAl(KAYNAK));
+    if (gazeteler.length < 10) throw new Error(`gazeteoku'da yalnız ${gazeteler.length} gazete bulundu`);
+  } catch (hata) {
+    console.log(`Ana kaynak olmadı (${hata.message}); yedek deneniyor`);
+    const yedek = ayiklaYedek(await sayfaAl(YEDEK));
+    if (yedek.length < 5) throw new Error(`Yedekte yalnız ${yedek.length} gazete bulundu`);
+    // Eldeki listeyi koru; yalnız yedekte daha yeni tarihli olanları değiştir.
+    gazeteler = (eski?.gazeteler ?? []).map((g) => ({ ...g }));
+    let yenilenen = 0;
+    for (const y of yedek) {
+      const i = gazeteler.findIndex((g) => g.id === y.id);
+      if (i === -1) gazeteler.push(y);
+      else if (y.tarih > gazeteler[i].tarih) gazeteler[i] = { ...y, ad: gazeteler[i].ad };
+      else continue;
+      yenilenen++;
+    }
+    console.log(`Yedekten ${yenilenen} gazete yenilendi (${yedek.length} bulundu)`);
+  }
+
   if (eski && JSON.stringify(eski.gazeteler) === JSON.stringify(gazeteler)) {
     console.log(`Değişiklik yok (${gazeteler.length} gazete)`);
     return;
