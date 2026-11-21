@@ -1,19 +1,19 @@
 {
- "guncelleme": "2026-11-20T10:08:02.599Z",
+ "guncelleme": "2026-11-21T09:55:31.021Z",
  "gazeteler": [
   {
    "id": "hurriyet",
    "ad": "Hürriyet",
-   "tarih": "2026-11-20",
-   "kucuk": "https://i2.haber7.net/haber7/gazete/hurriyet/medium_201126_0800.jpg",
-   "buyuk": "https://i2.haber7.net/haber7/gazete/hurriyet/big_201126_0800.jpg"
+   "tarih": "2026-11-21",
+   "kucuk": "https://i2.haber7.net/haber7/gazete/hurriyet/medium_211126_0800.jpg",
+   "buyuk": "https://i2.haber7.net/haber7/gazete/hurriyet/big_211126_0800.jpg"
   },
   {
    "id": "sabah",
    "ad": "Sabah",
-   "tarih": "2026-11-20",
-   "kucuk": "https://i2.haber7.net/haber7/gazete/sabah/medium_201126_0800.jpg",
-   "buyuk": "https://i2.haber7.net/haber7/gazete/sabah/big_201126_0800.jpg"
+   "tarih": "2026-11-21",
+   "kucuk": "https://i2.haber7.net/haber7/gazete/sabah/medium_211126_0800.jpg",
+   "buyuk": "https://i2.haber7.net/haber7/gazete/sabah/big_211126_0800.jpg"
   },
   {
    "id": "nefes",
@@ -39,23 +39,23 @@
   {
    "id": "turkgun",
    "ad": "Türkgün",
-   "tarih": "2026-11-20",
-   "kucuk": "https://i2.haber7.net/haber7/gazete/turkgun/medium_201126_0800.jpg",
-   "buyuk": "https://i2.haber7.net/haber7/gazete/turkgun/big_201126_0800.jpg"
+   "tarih": "2026-11-21",
+   "kucuk": "https://i2.haber7.net/haber7/gazete/turkgun/medium_211126_0800.jpg",
+   "buyuk": "https://i2.haber7.net/haber7/gazete/turkgun/big_211126_0800.jpg"
   },
   {
    "id": "turkiye",
    "ad": "Türkiye",
-   "tarih": "2026-11-20",
-   "kucuk": "https://i2.haber7.net/haber7/gazete/turkiye/medium_201126_0800.jpg",
-   "buyuk": "https://i2.haber7.net/haber7/gazete/turkiye/big_201126_0800.jpg"
+   "tarih": "2026-11-21",
+   "kucuk": "https://i2.haber7.net/haber7/gazete/turkiye/medium_211126_0800.jpg",
+   "buyuk": "https://i2.haber7.net/haber7/gazete/turkiye/big_211126_0800.jpg"
   },
   {
    "id": "yeni-safak",
    "ad": "Yeni Şafak",
-   "tarih": "2026-11-20",
-   "kucuk": "https://i2.haber7.net/haber7/gazete/yeni-safak/medium_201126_0800.jpg",
-   "buyuk": "https://i2.haber7.net/haber7/gazete/yeni-safak/big_201126_0800.jpg"
+   "tarih": "2026-11-21",
+   "kucuk": "https://i2.haber7.net/haber7/gazete/yeni-safak/medium_211126_0800.jpg",
+   "buyuk": "https://i2.haber7.net/haber7/gazete/yeni-safak/big_211126_0800.jpg"
   },
   {
    "id": "karar",
@@ -67,37 +67,37 @@
   {
    "id": "yeni-akit",
    "ad": "Yeni Akit",
-   "tarih": "2026-11-20",
-   "kucuk": "https://i2.haber7.net/haber7/gazete/yeni-akit/medium_201126_0800.jpg",
-   "buyuk": "https://i2.haber7.net/haber7/gazete/yeni-akit/big_201126_0800.jpg"
+   "tarih": "2026-11-21",
+   "kucuk": "https://i2.haber7.net/haber7/gazete/yeni-akit/medium_211126_0800.jpg",
+   "buyuk": "https://i2.haber7.net/haber7/gazete/yeni-akit/big_211126_0800.jpg"
   },
   {
    "id": "aksam",
    "ad": "Akşam",
-   "tarih": "2026-11-20",
-   "kucuk": "https://i2.haber7.net/haber7/gazete/aksam/medium_201126_0800.jpg",
-   "buyuk": "https://i2.haber7.net/haber7/gazete/aksam/big_201126_0800.jpg"
+   "tarih": "2026-11-21",
+   "kucuk": "https://i2.haber7.net/haber7/gazete/aksam/medium_211126_0800.jpg",
+   "buyuk": "https://i2.haber7.net/haber7/gazete/aksam/big_211126_0800.jpg"
   },
   {
    "id": "milliyet",
    "ad": "Milliyet",
-   "tarih": "2026-11-20",
-   "kucuk": "https://i2.haber7.net/haber7/gazete/milliyet/medium_201126_0800.jpg",
-   "buyuk": "https://i2.haber7.net/haber7/gazete/milliyet/big_201126_0800.jpg"
+   "tarih": "2026-11-21",
+   "kucuk": "https://i2.haber7.net/haber7/gazete/milliyet/medium_211126_0800.jpg",
+   "buyuk": "https://i2.haber7.net/haber7/gazete/milliyet/big_211126_0800.jpg"
   },
   {
    "id": "milli-gazete",
    "ad": "Milli Gazete",
-   "tarih": "2026-11-20",
-   "kucuk": "https://i2.haber7.net/haber7/gazete/milli-gazete/medium_201126_0800.jpg",
-   "buyuk": "https://i2.haber7.net/haber7/gazete/milli-gazete/big_201126_0800.jpg"
+   "tarih": "2026-11-21",
+   "kucuk": "https://i2.haber7.net/haber7/gazete/milli-gazete/medium_211126_0800.jpg",
+   "buyuk": "https://i2.haber7.net/haber7/gazete/milli-gazete/big_211126_0800.jpg"
   },
   {
    "id": "aydinlik",
    "ad": "Aydınlık",
-   "tarih": "2026-11-20",
-   "kucuk": "https://i2.haber7.net/haber7/gazete/aydinlik/medium_201126_0800.jpg",
-   "buyuk": "https://i2.haber7.net/haber7/gazete/aydinlik/big_201126_0800.jpg"
+   "tarih": "2026-11-21",
+   "kucuk": "https://i2.haber7.net/haber7/gazete/aydinlik/medium_211126_0800.jpg",
+   "buyuk": "https://i2.haber7.net/haber7/gazete/aydinlik/big_211126_0800.jpg"
   },
   {
    "id": "birgun",
@@ -116,9 +116,9 @@
   {
    "id": "dirilis-postasi",
    "ad": "Diriliş Postası",
-   "tarih": "2026-11-20",
-   "kucuk": "https://i2.haber7.net/haber7/gazete/dirilis-postasi/medium_201126_0800.jpg",
-   "buyuk": "https://i2.haber7.net/haber7/gazete/dirilis-postasi/big_201126_0800.jpg"
+   "tarih": "2026-11-21",
+   "kucuk": "https://i2.haber7.net/haber7/gazete/dirilis-postasi/medium_211126_0800.jpg",
+   "buyuk": "https://i2.haber7.net/haber7/gazete/dirilis-postasi/big_211126_0800.jpg"
   },
   {
    "id": "yeni-asya",
@@ -130,23 +130,23 @@
   {
    "id": "yenicag",
    "ad": "Yeniçağ",
-   "tarih": "2026-11-20",
-   "kucuk": "https://i2.haber7.net/haber7/gazete/yenicag/medium_201126_0800.jpg",
-   "buyuk": "https://i2.haber7.net/haber7/gazete/yenicag/big_201126_0800.jpg"
+   "tarih": "2026-11-21",
+   "kucuk": "https://i2.haber7.net/haber7/gazete/yenicag/medium_211126_0800.jpg",
+   "buyuk": "https://i2.haber7.net/haber7/gazete/yenicag/big_211126_0800.jpg"
   },
   {
    "id": "yenibirlik",
    "ad": "YeniBirlik",
-   "tarih": "2026-11-20",
-   "kucuk": "https://i2.haber7.net/haber7/gazete/yeni-birlik/medium_201126_0800.jpg",
-   "buyuk": "https://i2.haber7.net/haber7/gazete/yeni-birlik/big_201126_0800.jpg"
+   "tarih": "2026-11-21",
+   "kucuk": "https://i2.haber7.net/haber7/gazete/yeni-birlik/medium_211126_0800.jpg",
+   "buyuk": "https://i2.haber7.net/haber7/gazete/yeni-birlik/big_211126_0800.jpg"
   },
   {
    "id": "takvim",
    "ad": "Takvim",
-   "tarih": "2026-11-20",
-   "kucuk": "https://i2.haber7.net/haber7/gazete/takvim-gazetesi/medium_201126_0800.jpg",
-   "buyuk": "https://i2.haber7.net/haber7/gazete/takvim-gazetesi/big_201126_0800.jpg"
+   "tarih": "2026-11-21",
+   "kucuk": "https://i2.haber7.net/haber7/gazete/takvim-gazetesi/medium_211126_0800.jpg",
+   "buyuk": "https://i2.haber7.net/haber7/gazete/takvim-gazetesi/big_211126_0800.jpg"
   },
   {
    "id": "posta",
@@ -158,30 +158,30 @@
   {
    "id": "dunya",
    "ad": "Dünya",
-   "tarih": "2026-11-20",
-   "kucuk": "https://i2.haber7.net/haber7/gazete/dunya/medium_201126_0800.jpg",
-   "buyuk": "https://i2.haber7.net/haber7/gazete/dunya/big_201126_0800.jpg"
+   "tarih": "2026-11-21",
+   "kucuk": "https://i2.haber7.net/haber7/gazete/dunya/medium_211126_0800.jpg",
+   "buyuk": "https://i2.haber7.net/haber7/gazete/dunya/big_211126_0800.jpg"
   },
   {
    "id": "milat",
    "ad": "Milat",
-   "tarih": "2026-11-20",
-   "kucuk": "https://i2.haber7.net/haber7/gazete/milat/medium_201126_0800.jpg",
-   "buyuk": "https://i2.haber7.net/haber7/gazete/milat/big_201126_0800.jpg"
+   "tarih": "2026-11-21",
+   "kucuk": "https://i2.haber7.net/haber7/gazete/milat/medium_211126_0800.jpg",
+   "buyuk": "https://i2.haber7.net/haber7/gazete/milat/big_211126_0800.jpg"
   },
   {
    "id": "fanatik",
    "ad": "Fanatik",
-   "tarih": "2026-11-20",
-   "kucuk": "https://i2.haber7.net/haber7/gazete/fanatik/medium_201126_0800.jpg",
-   "buyuk": "https://i2.haber7.net/haber7/gazete/fanatik/big_201126_0800.jpg"
+   "tarih": "2026-11-21",
+   "kucuk": "https://i2.haber7.net/haber7/gazete/fanatik/medium_211126_0800.jpg",
+   "buyuk": "https://i2.haber7.net/haber7/gazete/fanatik/big_211126_0800.jpg"
   },
   {
    "id": "fotomac",
    "ad": "Fotomaç",
-   "tarih": "2026-11-20",
-   "kucuk": "https://i2.haber7.net/haber7/gazete/fotomac/medium_201126_0800.jpg",
-   "buyuk": "https://i2.haber7.net/haber7/gazete/fotomac/big_201126_0800.jpg"
+   "tarih": "2026-11-21",
+   "kucuk": "https://i2.haber7.net/haber7/gazete/fotomac/medium_211126_0800.jpg",
+   "buyuk": "https://i2.haber7.net/haber7/gazete/fotomac/big_211126_0800.jpg"
   },
   {
    "id": "korkusuz",
@@ -228,9 +228,9 @@
   {
    "id": "dogru-haber",
    "ad": "Doğru Haber",
-   "tarih": "2026-11-20",
-   "kucuk": "https://i2.haber7.net/haber7/gazete/dogru-haber/medium_201126_0800.jpg",
-   "buyuk": "https://i2.haber7.net/haber7/gazete/dogru-haber/big_201126_0800.jpg"
+   "tarih": "2026-11-21",
+   "kucuk": "https://i2.haber7.net/haber7/gazete/dogru-haber/medium_211126_0800.jpg",
+   "buyuk": "https://i2.haber7.net/haber7/gazete/dogru-haber/big_211126_0800.jpg"
   }
  ]
 }
